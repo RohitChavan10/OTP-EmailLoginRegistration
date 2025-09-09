@@ -26,3 +26,24 @@ This is a Laravel application that supports **user registration and login with O
 ```bash
 git clone https://github.com/RohitChavan10/OTP-EmailLoginRegistration.git
 cd OTP-EmailLoginRegistration
+
+2. Install Dependencies
+composer install
+npm install && npm run dev
+
+3. Setup Environment
+
+Copy .env.example to .env:
+
+4. Generate Key
+php artisan key:generate
+
+5. Run Migrations
+php artisan migrate
+
+6. Serve App
+php artisan serve
+
+
+Now visit:
+👉 http://127.0.0.1:8000
